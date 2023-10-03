@@ -1,0 +1,38 @@
+
+
+
+.hero {
+
+    margin-top: 300px;
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: rgba(0, 0, 0, 0.536); */
+    background: linear-gradient(45deg,rgba(21, 21, 21, 0.699),rgba(15, 8, 8, 0.772),rgba(37, 37, 17, 0.653),rgba(53, 6, 6, 0.772),rgba(0, 0, 0, 0.365));
+
+    border: 7px solid rgb(187, 164, 10);
+    border-radius: 30px;
+
+    flex-direction: column;
+    /* text-shadow: 1px 1px 10px black; */
+    padding: 30px;
+}
+
+
+
+
+
+.hero h1 {
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
