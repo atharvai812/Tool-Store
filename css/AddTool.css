@@ -9,11 +9,10 @@
 body {
   display: flex;
   flex-direction: column;
-  
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #f3f4ffe1;
+  background: var(--light-blue);
 }
 .container {
   position: relative;
@@ -99,13 +98,6 @@ body {
 	--grey: #f2f2f2;
 }
 
-body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	background: var(--light-blue);
-}
 
 
 .container1 {
@@ -199,3 +191,7 @@ body {
     row-gap: 15px;
   }
 }
+
+
+
+/* footer css */

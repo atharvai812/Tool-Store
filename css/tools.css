@@ -9,9 +9,8 @@
     place-items: center;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
-    /* row? */
     grid-template-rows: repeat(3, 1fr);
-    /* border: 2px solid gray; */
+    border: 2px solid gray;
 }
 
 .tools .tool{
@@ -75,8 +74,6 @@
 
 
 .tools .tool .category a{
-    /* width: 30%;
-    height: 50px; */
     padding: 10px 20px;
     background: #afb6ff;
     border-radius: 30px;
@@ -91,6 +88,7 @@
     color: #000000;
     font-weight: 400;
 }
+
 
 .tools .tool .category a:hover{
     background: #ffffff;
@@ -117,7 +115,7 @@
 }
 
 .tools .tool button:hover{
-    background: #ffffff;
+    background: #5672b4;
     color: #000000;
     border: 1px solid #000000;
 }
